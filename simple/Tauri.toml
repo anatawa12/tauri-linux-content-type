@@ -1,0 +1,7 @@
+[build]
+beforeDevCommand = ":"
+devPath = "web"
+distDir = "web"
+
+[[tauri.windows]]
+

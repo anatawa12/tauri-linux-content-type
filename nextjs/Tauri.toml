@@ -1,0 +1,10 @@
+[build]
+beforeDevCommand = "npm run dev"
+beforeBuildCommand = "npm run build"
+devPath = "http://localhost:3333"
+distDir = "web"
+
+[[tauri.windows]]
+
+[tauri.allowlist]
+dialog.message = true

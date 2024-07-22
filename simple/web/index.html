@@ -1,0 +1,19 @@
+<!doctype html>
+
+<div id="body">
+	Loading...
+</div>
+
+<script type="module">
+	const htmlContentType = await fetch("/test.html").then(x => x.headers.get("content-type"));
+	const jsContentType = await fetch("/test.js").then(x => x.headers.get("content-type"));
+	const txtContentType = await fetch("/test.txt").then(x => x.headers.get("content-type"));
+
+	const body = document.getElementById("body");
+	body.innerHTML = `
+		<p>HTML content type: ${htmlContentType}</p>
+		<p>JS content type: ${jsContentType}</p>
+		<p>Text content type: ${txtContentType}</p>
+	`;
+
+</script>
