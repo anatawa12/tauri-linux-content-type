@@ -2,7 +2,7 @@
 beforeDevCommand = "npm run dev"
 beforeBuildCommand = "npm run build"
 devPath = "http://localhost:3333"
-distDir = "web"
+distDir = "out"
 
 [[tauri.windows]]
 
