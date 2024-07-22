@@ -27,7 +27,9 @@ On macOS, it will show `text/html`, `text/javascript` and `text/plain` respectiv
 
 ![macos screenshot](.readme/macos-simple.png)
 
-However, on linux, it will show nothing. content-type field is missing.
+However, on linux, it will show null. content-type field is missing.
+
+![linux screenshot](.readme/linux-simple.png)
 
 ### nextjs
 
